@@ -1,0 +1,17 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Large/local datasets
+data/raw/
+data/clean/
+df_clean.csv
+cyclistic_clean_v1.csv
+*.csv.gz
+
+# OS files
+.DS_Store
+Thumbs.db
