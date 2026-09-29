@@ -18,7 +18,7 @@ Los 12 archivos CSV originales y el dataset limpio completo no se incluyen en Gi
 
 ## Datos procesados
 
-La carpeta `processed/` contendrá únicamente archivos agregados y optimizados para Tableau:
+La carpeta `processed/` contiene los archivos agregados y optimizados para Tableau:
 
 - `cyclistic_tableau_time.csv`
 - `cyclistic_tableau_duration.csv`
