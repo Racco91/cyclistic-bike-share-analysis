@@ -41,6 +41,8 @@ A partir de esta pregunta se analizaron cinco dimensiones principales:
 - **Tableau Public**
 - **Git / GitHub**
 
+📓 [Ver el notebook completo del análisis](notebooks/cyclistic_analysis.ipynb)
+
 ---
 
 ## 📂 Fuente de los datos
@@ -51,9 +53,11 @@ Los datos utilizados corresponden a viajes públicos de **Divvy Bike-Share (Chic
 - Registros finales analizados: **6.032.469 viajes**
 - Fuente oficial: [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
-Los archivos originales y el dataset limpio completo no se incluyen en este repositorio debido a su tamaño. Los datasets agregados utilizados para Tableau se incorporarán en `data/processed/`.
+Los archivos originales y el dataset limpio completo no se incluyen en este repositorio debido a su tamaño. Los **datasets agregados utilizados para Tableau sí están disponibles** en `data/processed/`.
 
 Más detalles en [data/README.md](data/README.md).
+
+> **Nota de reproducibilidad:** el notebook fue desarrollado en Google Colab. Los CSV originales se cargan desde `/content/` y algunas celdas de exportación utilizan una ruta de Google Drive; si se ejecuta en otro entorno, esas rutas deben adaptarse.
 
 ---
 
