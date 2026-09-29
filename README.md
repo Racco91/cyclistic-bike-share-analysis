@@ -8,7 +8,14 @@ Análisis de **6.032.469 viajes** de bicicletas compartidas de Chicago para iden
 
 > Cyclistic es una empresa ficticia utilizada en el caso práctico del Certificado Profesional de Google Data Analytics. Los datos provienen del sistema público Divvy Bike-Share de Chicago.
 
+## 📊 Vista previa
+
+[![Cyclistic Overview](images/cyclistic_overview.png)](https://public.tableau.com/app/profile/ram.n.rovira/viz/CyclisticBike-ShareAnalysisMembervsCasualRiderBehavior/CyclisticOverview)
+
+*Resumen ejecutivo del análisis. Hacé clic en la imagen para abrir la versión interactiva en Tableau Public.*
+
 ---
+
 
 ## 📌 Descripción del proyecto
 
@@ -143,11 +150,25 @@ Entre los puntos destacados:
 
 ### 5. Compartir
 
-Se desarrollaron tres dashboards finales en Tableau:
+Se desarrollaron tres dashboards finales en Tableau para comunicar los resultados desde una perspectiva ejecutiva, conductual y geográfica.
 
-1. **Cyclistic Overview** — resumen ejecutivo.
-2. **Rider Behavior** — diferencias por día, hora y tipo de bicicleta.
-3. **Geographic Opportunities** — concentración geográfica y estaciones con alta participación Casual.
+#### Cyclistic Overview
+
+Resumen ejecutivo con volumen total, participación por tipo de usuario, evolución mensual y duración mediana de los viajes.
+
+[![Cyclistic Overview](images/cyclistic_overview.png)](https://public.tableau.com/app/profile/ram.n.rovira/viz/CyclisticBike-ShareAnalysisMembervsCasualRiderBehavior/CyclisticOverview)
+
+#### Rider Behavior
+
+Comparación del comportamiento de Member y Casual por día de la semana, hora del día y tipo de bicicleta.
+
+[![Rider Behavior](images/rider_behavior.png)](https://public.tableau.com/app/profile/ram.n.rovira/viz/CyclisticBike-ShareAnalysisMembervsCasualRiderBehavior/CyclisticOverview)
+
+#### Geographic Opportunities
+
+Análisis de estaciones con mayor concentración de viajes Casual y oportunidades geográficas para campañas de conversión.
+
+[![Geographic Opportunities](images/geographic_opportunities.png)](https://public.tableau.com/app/profile/ram.n.rovira/viz/CyclisticBike-ShareAnalysisMembervsCasualRiderBehavior/CyclisticOverview)
 
 📊 [Abrir dashboards interactivos en Tableau Public](https://public.tableau.com/app/profile/ram.n.rovira/viz/CyclisticBike-ShareAnalysisMembervsCasualRiderBehavior/CyclisticOverview)
 
