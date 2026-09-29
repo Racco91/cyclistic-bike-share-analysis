@@ -1,0 +1,7 @@
+member_casual,total_rides,mean_duration,median_duration,p25,p75,p90,rideable_type,analysis_level
+casual,2146638,18.26,11.03,6.16,20.19,36.62,All,User overall
+member,3885831,12.01,8.57,5.02,14.56,23.4,All,User overall
+casual,607938,29.0,15.98,8.86,30.32,58.04,classic_bike,User by bike
+casual,1538700,14.01,9.66,5.47,17.0,28.84,electric_bike,User by bike
+member,1277898,13.91,9.23,5.35,16.48,27.47,classic_bike,User by bike
+member,2607933,11.08,8.29,4.86,13.78,21.48,electric_bike,User by bike
