@@ -14,6 +14,14 @@ Análisis de **6.032.469 viajes** de bicicletas compartidas de Chicago para iden
 
 *Resumen ejecutivo del análisis. Hacé clic en la imagen para abrir la versión interactiva en Tableau Public.*
 
+## 📌 Resultados clave
+
+- Los miembros representan el **64,42 %** de todos los viajes.
+- Los viajes Casual tienen una **mediana de duración 28,7 % mayor** que los viajes Member.
+- La participación Casual muestra una **estacionalidad más marcada**, con mayor peso durante los meses de mayor demanda.
+- Entre las 06:00 y las 09:00 se concentra el **20,36 %** de la actividad Member frente al **10,80 %** de la actividad Casual.
+- Varias estaciones de alto volumen presentan una participación Casual superior al **70 %**, destacando Shedd Aquarium, Field Museum y Navy Pier.
+
 ---
 
 
@@ -43,7 +51,6 @@ A partir de esta pregunta se analizaron cinco dimensiones principales:
 
 - **Python**
 - **Pandas**
-- **NumPy**
 - **Google Colab**
 - **Tableau Public**
 - **Git / GitHub**
@@ -64,7 +71,7 @@ Los archivos originales y el dataset limpio completo no se incluyen en este repo
 
 Más detalles en [data/README.md](data/README.md).
 
-> **Nota de reproducibilidad:** el notebook fue desarrollado en Google Colab. Los CSV originales se cargan desde `/content/` y algunas celdas de exportación utilizan una ruta de Google Drive; si se ejecuta en otro entorno, esas rutas deben adaptarse.
+> **Nota de reproducibilidad:** el notebook fue desarrollado en Google Colab. Espera los 12 CSV originales de Divvy en `/content/`, valida automáticamente que correspondan al período agosto de 2025–julio de 2026 y guarda las salidas en `/content/cyclistic_outputs/`. La variable `OUTPUT_DIR` puede modificarse para utilizar otra ubicación.
 
 ---
 
@@ -227,4 +234,11 @@ cyclistic-bike-share-analysis/
 
 ## 👤 Autor
 
-Proyecto desarrollado como parte de un portfolio de análisis de datos.
+**Ramón Rovira**  
+Data Analyst Junior
+
+- [LinkedIn](https://www.linkedin.com/in/ram%C3%B3nrovira/)
+- [Tableau Public](https://public.tableau.com/app/profile/ram.n.rovira)
+- [GitHub](https://github.com/Racco91)
+
+Proyecto desarrollado como parte de mi portfolio de análisis de datos.
